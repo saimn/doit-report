@@ -23,8 +23,8 @@ a lighter package.
 
 Note that doit does not save the execution status after each task ends, but only
 when `doit run` exits. This is an issue for long-running tasks, and would need
-either something like [#228](https://github.com/pydoit/doit/pull/228) or a better
-backend.
+either something like [#228](https://github.com/pydoit/doit/pull/228) or
+a [better backend](https://github.com/saimn/doit-redis).
 
 Example console output:
 
